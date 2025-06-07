@@ -9,7 +9,7 @@ Dataset
 ------
 [CAVE](https://www1.cs.columbia.edu/CAVE/databases/multispectral/ 
 "CAVE"), [Harvard](http://vision.seas.harvard.edu/hyperspec/explore.html 
-"Harvard"), [Chikusei](https://naotoyokoya.Com/Download.html), are employed to verify the effectiveness of the  proposed SRDNet. Since there are too few images in these datasets for deep learning algorithm, we augment the training data. With respect to the specific details, please see the implementation details section.**
+"Harvard"), [Chikusei](https://naotoyokoya.Com/Download.html), are employed to verify the effectiveness of the  proposed MBNet. Since there are too few images in these datasets for deep learning algorithm, we augment the training data. With respect to the specific details, please see the implementation details section.**
 
 **Moreover, The code about data pre-processing in SRDNet (https://github.com/LTTdouble/SRDNet) folder [data pre-processing] or ( https://github.com/qianngli/MCNet/tree/master/data_pre-processing "data pre-processing"). The folder contains three parts, including training set augment, test set pre-processing, and band mean for all training set.**
 
