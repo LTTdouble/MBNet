@@ -17,7 +17,11 @@ parser.add_argument("--start_epoch", default=1, type=int, help="Manual epoch num
 parser.add_argument("----datasetName",default="Chikusei",type=str,help="data name")
 # Network settings
 
+
 parser.add_argument('--n_feats', type=int, default=80, help='number of feature maps')
+
+# /////////////////  CAVE and Harvard n_feats=128
+# parser.add_argument('--n_feats', type=int, default=128, help='number of feature maps')
 parser.add_argument('--n_colors', type=int, default=128, help='number of band')
 parser.add_argument('--res_scale', type=int, default=1, help='number of band')
 
